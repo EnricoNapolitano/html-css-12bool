@@ -3,3 +3,9 @@
     --custom-blue: #006cfa;
     --custom-green: #00e165;
 }
+
+.row > div {
+    border: 1px solid white;
+    background-color: var(--custom-blue);
+    height: 65px;
+}
