@@ -67,10 +67,28 @@ body {
     left:calc(450px - 65px / 2);
 }
 i {
-    font-size: 85px;
-    color: grey;
+    height: 140px;
+    font-size: 105px;
+    color: darkgrey;
     position: absolute;
-    bottom:140px;
-    left:calc(450px - 65px / 2);
+    bottom: 119px;
+    left: calc(450px - 75px / 2);
+    animation: spin 2s ease infinite;
+}
+
+/* ANIMATION */
+@keyframes spin {
+    0% {
+        transform: rotate(45deg);
+        transform-origin: bottom center;
+    }
+    50% {
+        transform: rotate(-45deg);
+        transform-origin: bottom center;
+    }
+    100% {
+        transform: rotate(45deg);
+        transform-origin: bottom center;
+    }
 }
 
