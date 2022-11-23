@@ -1,0 +1,62 @@
+/* COLOR PALETTE */
+:root {
+    --custom-grey: #bebffe;
+}
+
+
+/* GENERICS */
+body {
+    background-color: black;
+}
+
+/* UTILS */
+.blue {
+    background-color: blue;
+}
+.orange {
+    background-color: orange;
+}
+.green {
+    background-color: green;
+}
+.yellow {
+    background-color: yellow;
+}
+.red {
+    background-color: red;
+}
+.ball {
+    border-radius: 50%;
+    height: 65px;
+    box-shadow: 0 0 18px inset;
+}
+
+/* FLEX UTILS */
+.g-2 {
+    gap: 5px;
+}
+
+/* STYLE */
+.center-align {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rounded {
+    border-radius: 15px;
+}
+.table {
+    background-color: var(--custom-grey);
+    border: 2px solid  #a9a9a9;
+    width: 900px;
+    height: 765px;
+    margin: 40px auto;
+    box-shadow: 0 0 25px white inset;
+}
+.table.inside {
+    border: 3px solid  #b3b3b3;
+    width: 812px;
+    height: 680px;
+    box-shadow: 0 0 18px inset;
+}
+
