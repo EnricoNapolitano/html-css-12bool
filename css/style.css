@@ -26,6 +26,7 @@ p {
 .row > .nested {
     background-color: var(--custom-green);
     border: 1px solid var(--custom-blue);
+    box-shadow: none;
     height: 40px;
 }
 .p-10 {
